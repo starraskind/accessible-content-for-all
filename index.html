@@ -11,49 +11,46 @@
 
   <header role="banner">
     <h1>The Pangolin</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Jump to main content</a></li>
-        <li><a href="#">Jump to navigation</a></li>
-      </ul>
-    </nav>
-    <nav>
+    <ul>
+      <li><a href="#main">Jump to main content</a></li>
+      <li><a href="#navigation">Jump to navigation</a></li>
+    </ul>
+    <nav role="navigation" id="navigation">
       <ol>
-        <li><a href="#">Pangolin</a></li>
-        <li><a href="#">Description</a></li>
-        <li><a href="#">Behaviour</a></li>
-        <li><a href="#">Conservation</a></li>
+        <li><a href="#pangolin">Pangolin</a></li>
+        <li><a href="#description">Description</a></li>
+        <li><a href="#behaviour">Behaviour</a></li>
+        <li><a href="#conservation">Conservation</a></li>
       </ol>
     </nav>
   </header>
 
-  <main role="main">
-    <img src="images/pangolin.jpg" alt="">
+  <main role="main" id="main">
+    <img src="images/pangolin.jpg" alt="pangolin" id="pangolin">
+    <article>
+      <h2 id="description">Description</h2>
+      <p>Some countries where pangolins are found</p>
+      <ul>
+        <li>Botswana</li>
+        <li>Kenya</li>
+        <li>Mozambique</li>
+        <li>Namibia</li>
+        <li>South Africa</li>
+        <li>Tanzania</li>
+        <li>Uganda</li>
+        <li>Zambia</li>
+        <li>Zimbabwe</li>
+      </ul>
 
-    <h2>Description</h2>
-    <p>Some countries where pangolins are found</p>
-    <ul>
-      <li>Botswana</li>
-      <li>Kenya</li>
-      <li>Mozambique</li>
-      <li>Namibia</li>
-      <li>South Africa</li>
-      <li>Tanzania</li>
-      <li>Uganda</li>
-      <li>Zambia</li>
-      <li>Zimbabwe</li>
-    </ul>
+      <h2 id="behaviour">Behaviour</h2>
+      <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior">Read more about Pangolin behaviour</a>
 
-    <h2>Behaviour</h2>
-    <p>Read more about Pangolin behaviour</p>
-    <a href="https://en.wikipedia.org/wiki/Pangolin#Behavior">Read more</a>
-
-    <h2>Conservation</h2>
-    <p>Read more about Pangolin conservation</p>
-    <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation">Read more</a>
+      <h2 id="conservation">Conservation</h2>
+      <a href="https://en.wikipedia.org/wiki/Pangolin#Conservation">Read more about Pangolin conservation</a>
+    </article>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <p>© 1821 Pangolin</p>
   </footer>
 
